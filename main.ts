@@ -5,7 +5,6 @@
  * This program changes color of RGB LED
 */
 
-
 basic.clearScreen()
 basic.showIcon(IconNames.Heart)
 basic.pause(1000)
@@ -16,7 +15,7 @@ pins.digitalWritePin(DigitalPin.P15, 0)
 // blue
 pins.digitalWritePin(DigitalPin.P14, 0)
 
-input.onButtonPressed(Button.A, function() {
+input.onButtonPressed(Button.A, function () {
   // red
   pins.digitalWritePin(DigitalPin.P16, 1)
   basic.showString('red')
