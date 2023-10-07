@@ -5,4 +5,10 @@
  * This program ...
 */
 
-basic.showString('Hello, World!')
+
+basic.clearScreen()
+basic.showIcon(IconNames.Heart)
+basic.pause(1000)
+pins.digitalWritePin(DigitalPin.P16, 0)
+pins.digitalWritePin(DigitalPin.P8, 0)
+pins.digitalWritePin(DigitalPin.P5, 0)
