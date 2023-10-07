@@ -2,7 +2,7 @@
  *
  * Created by: Sophie
  * Created on: Oct 2023
- * This program ...
+ * This program changes color of RGB LED
 */
 
 
