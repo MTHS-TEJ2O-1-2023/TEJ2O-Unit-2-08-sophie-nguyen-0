@@ -5,7 +5,6 @@ This module is a Micro:bit MicroPython program that changes the color of a RGB L
 """
 
 from microbit import *
-import neopixel
 
 display.clear
 display.show(Image.HEART)
